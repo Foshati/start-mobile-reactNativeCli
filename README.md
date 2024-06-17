@@ -1,6 +1,6 @@
 # React Native CLI X - RNCX - v0.74
 
-This README file is designed for a React Native CLI project, detailing essential installed packages.
+This README file is designed for a React Native CLI X project, detailing essential installed packages.
 
 ## Core Packages
 
@@ -46,32 +46,42 @@ This README file is designed for a React Native CLI project, detailing essential
 - **React**: 18.2.0
 - **React Native**: 0.74.2
 - **TypeScript**: 5.0.4
+- **nativewind**: 4.0.36
+  
 
 ## Installation and Execution
 
 Install Dependencies: npm install
 <button onclick="navigator.clipboard.writeText('npm install')">Copy</button>
 
-### For ios simulator before run:
-
-  ```sh
+### For ios simulator before run start:
    - **cd ios**
-   - **pod install**
-   - **cd ..**
-    ```
+
+  ```
+   pod install
+  ```
+  - **cd ..**
 
 
 Run on Android: 
-  ```sh npm run android    ```
+  ```
+   npm run android
+  ```
 
 Run on iOS: 
-  ```sh npm run ios   ```
+  ```
+  npm run ios
+  ```
 
 Check Code Quality: 
-```sh npm run lint```
+```
+npm run lint
+```
 
 Run Tests:
- ```sh npm test```
+ ```
+ npm test
+```
 ## Closing Notes fa
 
 This README file is based on the settings and packages specified in the `package.json` file and should be updated regularly to reflect the latest versions of used packages and tools.
