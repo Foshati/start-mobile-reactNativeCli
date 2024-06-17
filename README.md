@@ -1,79 +1,79 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native CLI Project - README
 
-# Getting Started
+This README file is designed for a React Native CLI project, detailing essential installed packages.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Core Packages
 
-## Step 1: Start the Metro Server
+### Navigation
+- **@react-navigation/native**: Visual navigation for React Native.
+- **@react-navigation/native-stack**: Stack navigator for visual navigation.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### UI/UX
+- **nativewind**: Tailwind CSS utility library for React Native.
+- **react-native-safe-area-context**: Managing safe areas in React Native.
+- **react-native-reanimated**: Library for complex animations in React Native.
+- **react-native-screens**: Optimizing screens in React Native.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### UI Components
+- **react-native-vector-icons**: Vector icons for React Native.
 
-```bash
-# using npm
-npm start
+### Development Tools
+- **@babel/core**, **@babel/preset-env**, **@babel/runtime**: Transpiling ES6+ code to runnable code.
+- **@react-native/babel-preset**, **@react-native/eslint-config**, **@react-native/metro-config**, **@react-native/typescript-config**: Configuration for Babel, ESLint, and Metro for React Native.
+- **@types/react**, **@types/react-test-renderer**: TypeScript definitions for React.
+- **babel-jest**, **eslint**, **jest**: Testing and validation tools for React Native.
+- **typescript**: TypeScript language for writing code.
 
-# OR using Yarn
-yarn start
-```
+### CSS Framework
+- **tailwindcss**: Rapid and responsive design framework for React Native.
 
-## Step 2: Start your Application
+## Important Commands
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+- `npm install`: Install all dependencies.
+- `npm run android`: Run the application on Android.
+- `npm run ios`: Run the application on iOS.
+- `npm run lint`: Run ESLint for code quality checks.
+- `npm start`: Start Metro for running the application.
+- `npm test`: Run tests with Jest.
 
-### For Android
+## Additional Notes
 
-```bash
-# using npm
-npm run android
+- **Native Entities** such as `react-native-reanimated` and `react-native-screens` are used for enhanced performance and complex animations.
+- **TailwindCSS** via `nativewind` allows for rapid and readable design in React Native.
 
-# OR using Yarn
-yarn android
-```
+## Versions
 
-### For iOS
+- **React**: 18.2.0
+- **React Native**: 0.74.2
+- **TypeScript**: 5.0.4
 
-```bash
-# using npm
-npm run ios
+## Installation and Execution
 
-# OR using Yarn
-yarn ios
-```
+Install Dependencies: npm install
+<button onclick="navigator.clipboard.writeText('npm install')">Copy</button>
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### For ios simulator before run:
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-## Step 3: Modifying your App
+- **cd ios**
+- **pod install**
+- **cd ..**
 
-Now that you have successfully run the app, let's modify it.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+Run on Android: npm run android
+<button onclick="navigator.clipboard.writeText('npm run android')">Copy</button>
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+Run on iOS: npm run ios
+<button onclick="navigator.clipboard.writeText('npm run ios')">Copy</button>
 
-## Congratulations! :tada:
+Check Code Quality: npm run lint
+<button onclick="navigator.clipboard.writeText('npm run lint')">Copy</button>
 
-You've successfully run and modified your React Native App. :partying_face:
+Run Tests: npm test
+<button onclick="navigator.clipboard.writeText('npm test')">Copy</button>
+## Closing Notes fa
 
-### Now what?
+This README file is based on the settings and packages specified in the `package.json` file and should be updated regularly to reflect the latest versions of used packages and tools.
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
 
-# Troubleshooting
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
